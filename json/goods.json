@@ -1,0 +1,77 @@
+[{
+    "id": 1,
+    "name": "阿国是糖",
+    "headepic":"person1.png",
+    "items": [{
+        "id": 1,
+        "name": "三金耗儿鱼",
+        "price": 218.00,
+        "unit": "锅"   
+    }, {
+        "id": 2,
+        "name": "好大一条鱼",
+        "price": 108.00,
+        "unit": "条"
+    }]
+},{
+    "id": 2,
+    "name": "小小小红帽子",
+    "headepic":"person2.png",
+    "items": [{
+        "id": 3,
+        "name": "鱼香茄子",
+        "price": 48.00,
+        "unit": "份"
+    }, {
+        "id": 4,
+        "name": "宫保鸡丁",
+        "price": 98.00,
+        "unit": "份"
+    }]
+},{
+    "id": 3,
+    "name": "张三",
+    "headepic":"person1.png",
+    "items": [{
+        "id": 5,
+        "name": "翡翠木耳",
+        "price": 68.00,
+        "unit": "份"
+    }, {
+        "id": 6,
+        "name": "香瓜豆角",
+        "price": 58.00,
+        "unit": "份"
+    }]
+    
+},{
+    "id": 4,
+    "name": "李四",
+    "headepic":"person2.png",
+    "items": [{
+        "id":7,
+        "name": "八仙过海",
+        "price": 68.00,
+        "unit": "锅"
+    }, {
+        "id": 8,
+        "name": "猛龙过江",
+        "price": 58.00,
+        "unit": "锅"
+    }]
+},{
+    "id": 5,
+    "name": "王二麻子",
+    "headepic":"person1.png",
+    "items": [{
+        "id":9,
+        "name": "红豆糕",
+        "price": 38.00,
+        "unit": "锅"
+    }, {
+        "id": 10,
+        "name": "水果沙拉",
+        "price": 98.00,
+        "unit": "锅"
+  	}]
+}]

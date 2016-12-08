@@ -1,0 +1,112 @@
+[{
+    "id": 1,
+    "name": "主菜",
+    "class": "zhucai",
+    "ifChose": true,
+    "items": [{
+        "id": 1,
+        "name": "三金耗儿鱼",
+        "price": 218.00,
+        "unit": "锅",
+        "tongzhuo": 3,
+        "num":0,
+        "pic": "http://img0.imgtn.bdimg.com/it/u=4157171271,167188789&fm=21&gp=0.jpg"
+    }, {
+        "id": 2,
+        "name": "好大一条鱼",
+        "price": 108.00,
+        "unit": "条",
+        "tongzhuo": 2,
+        "num":0,
+        "pic": "http://img4.imgtn.bdimg.com/it/u=2431913288,2012207022&fm=21&gp=0.jpg"
+    }]
+},{
+    "id": 2,
+    "name": "热菜",
+    "class": "hot",
+    "ifChose": false,
+    "items": [{
+        "id": 3,
+        "name": "鱼香茄子",
+        "price": 48.00,
+        "unit": "份",
+        "tongzhuo": 5,
+        "num":0,
+        "pic": "http://img4.imgtn.bdimg.com/it/u=617593906,794275998&fm=21&gp=0.jpg"
+    }, {
+        "id": 4,
+        "name": "宫保鸡丁",
+        "price": 98.00,
+        "unit": "份",
+        "tongzhuo": 3,
+        "num":0,
+        "pic": "http://img5.imgtn.bdimg.com/it/u=212410192,3789711157&fm=21&gp=0.jpg"
+    }]
+},{
+    "id": 3,
+    "name": "凉菜",
+    "class": "cold",
+    "ifChose": false,
+    "items": [{
+        "id": 5,
+        "name": "翡翠木耳",
+        "price": 68.00,
+        "unit": "份",
+        "tongzhuo": 8,
+        "num":0,
+        "pic": "http://img5.imgtn.bdimg.com/it/u=1433894279,4168066750&fm=21&gp=0.jpg"
+    }, {
+        "id": 6,
+        "name": "香瓜豆角",
+        "price": 58.00,
+        "unit": "份",
+        "tongzhuo": 2,
+        "num":0,
+        "pic": "http://img3.imgtn.bdimg.com/it/u=988538686,3430271871&fm=21&gp=0.jpg"
+    }]
+    
+},{
+    "id": 4,
+    "name": "汤品",
+    "class": "soup",
+    "ifChose": false,
+    "items": [{
+        "id":7,
+        "name": "八仙过海",
+        "price": 68.00,
+        "unit": "锅",
+        "tongzhuo": 7,
+        "num":0,
+        "pic": "http://img5.imgtn.bdimg.com/it/u=1864631262,3624056841&fm=21&gp=0.jpg"
+    }, {
+        "id": 8,
+        "name": "猛龙过江",
+        "price": 58.00,
+        "unit": "锅",
+        "num":0,
+        "pic": "http://img4.imgtn.bdimg.com/it/u=2180361795,869157115&fm=21&gp=0.jpg"
+    }]
+  },{
+    "id": 5,
+    "name": "点心",
+    "class": "dessert",
+    "ifChose": false,
+    "items": [{
+        "id":9,
+        "name": "红豆糕",
+        "price": 38.00,
+        "unit": "锅",
+        "tongzhuo": 9,
+        "num":0,
+        "pic": "http://img0.imgtn.bdimg.com/it/u=3031687055,3255101315&fm=21&gp=0.jpg"
+    }, {
+        "id": 10,
+        "name": "水果沙拉",
+        "price": 98.00,
+        "unit": "锅",
+        "tongzhuo": 11,
+        "num":0,
+        "pic": "http://img3.imgtn.bdimg.com/it/u=1443033262,1154829923&fm=21&gp=0.jpg",
+        "blankpic":"http://dummyimage.com/750x460/ccc/333.jpg"
+    }]
+ }]

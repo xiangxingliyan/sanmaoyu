@@ -1,0 +1,30 @@
+<header class="goods-header">
+	<i  ng-click="backHome()"></i>
+	<span>确认订单</span>
+</header>
+<div class="goodsmain">
+	<div class="goodslist" ng-repeat="item in goodsData" ng-if="item.num">
+		<h3><img src="img/person1.png" class="headepic"/>小小小红帽</h3>
+		<ul class="goods-list">
+			<li ng-if="item.num">
+				<span class="name">{{item.name}}</span>
+				<div class="pricelist">
+					<span class="price">¥{{item.price}}</span>
+					<span class="unit">/ {{item.unit}}</span>
+				</div>
+				<div class="numlist">
+					<i class="reduce" ng-click="reduce($index)"></i>
+					<i class="num">{{item.num}}</i>
+					<i class="add" ng-click="add($index)"></i>
+				</div>
+			</li>
+			
+		</ul>
+	</div>
+</div>
+<footer class="goods-footer">
+	<i>已点<span>&nbsp;{{totalNum}}&nbsp;</sapn>道菜</i><i>共{{totalPrice}}元</i>
+	<a href="#" class="menu">
+		<span>传送厨房</span>
+	</a>
+</footer>

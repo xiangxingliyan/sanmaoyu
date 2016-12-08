@@ -1,0 +1,42 @@
+<header id="header" class="index-header">
+	<h1>三斤耗儿鱼</h1>
+	<span>渝北店，8号桌</span>
+</header>
+<div class="main">
+	<ul class="nav">
+		<!--如果item.ifchose为真，那么true即class为active-->
+		<li ng-class="{true:'active'}[item.ifChose]" ng-repeat="item in navData">
+			<i class="line" ng-hide="$first"></i>
+			<a href="" ng-click="changeNav($index)">
+				<!--通过类名设置图标的背景图片-->
+				<span class="nav-pic {{item.class}}"></span>
+				{{item.name}}
+			</a>
+		</li>
+	</ul>
+	<div class="list">
+		<h3>{{ dinnerTitle }}</h3>
+		<ul class="dinner-list">
+			<li ng-repeat="item in dinnerList">
+				<div class="dinner-pic">
+					<img ng-src="{{item.pic}}" alt="">
+					<span class="zhuo"><i></i>同桌已点{{item.tongzhuo}}份</span>
+				</div>
+				<h5>{{ item.name }}</h5>
+				<div class="pricelist"><span class="price">¥{{item.price}}</span>/<span class="unit">{{item.unit}}</span>
+					<div class="numlist">
+						<i class="homereduce" ng-click="reduce($index)"></i>
+						<span class="number">{{item.num}}</span>
+						<i class="homeadd" ng-click="add($index)"></i>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+<footer>
+	<i>已点<span>&nbsp;{{totalNum}}&nbsp;</sapn>道菜</i><i>共{{totalPrice}}元</i>
+	<a class="menu" ng-click="goGoods()">
+		<span >已点菜单</span>
+	</a>
+</footer>
